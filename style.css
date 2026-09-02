@@ -1,0 +1,57 @@
+/* style css */
+
+
+/* --- 기본 테크 --- */
+
+/* h1, a {
+    border: 2px solid red;
+} */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    display: block;
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    /* width: 100px; */
+}
+
+ol {
+    /* display: block; */
+    width: 100px;
+    border-right: 1px gray solid;
+    margin: 0px;
+    padding: 20px;
+}
+
+body {
+    margin: 0px;
+}
+
+/* --- 클라스 테그 --- */
+
+.headings {
+    border-bottom: 1px gray solid;
+    /* height: 60px; */
+}
+
+.saw {
+    color: gray;
+}
+
+
+
+/* --- ID 테그 --- */
+
+#active {
+    color: red;
+    text-decoration: none;
+}
+
+
+
