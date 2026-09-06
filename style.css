@@ -51,3 +51,17 @@ nav {
 main {
     padding: 20px;
 }
+
+/* --- 조건문 / 미디어퀄리는 기본 스타일에 덮어쓰는 특수 조건문이라 항상 마지막에 위치해야 한다 --- */
+
+@media (max-width: 800px) {
+    .container {
+        display: block;
+        & ol {
+            border-right: 0px gray solid;
+        }
+    }
+    header {
+        border-bottom: 0px gray solid;
+    }
+}
