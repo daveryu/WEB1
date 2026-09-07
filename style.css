@@ -1,5 +1,3 @@
-/* style css */
-
 /* --- 기본 테크 --- */
 
 a {
@@ -42,10 +40,6 @@ body {
 
 header {
     border-bottom: 1px gray solid;
-}
-
-nav {
-
 }
 
 main {
